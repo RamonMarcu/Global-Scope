@@ -18,24 +18,18 @@ Even though the color variable is defined outside of the block, it can be access
 In turn, color can be accessed within the returnSkyColor function block.
 Let’s work with global variables to see how data can be accessible from any place within a program.
 
-Instructions
-1.
-At the top of main.js, write three global variables:
+Instructions:
+
+1.At the top of main.js, write three global variables:
 
 Name the first variable satellite and set it equal to 'The Moon'.
 Name the second variable galaxy and set it equal to 'The Milky Way'.
 Name the third variable stars and set it equal to 'North Star'.
-Checkpoint 2 Passed
 
-Stuck? Get a hint
-2.
-Below the variables created in the previous step, write a function named callMyNightSky. Inside the function, include a return statement like this:
+2.Below the variables created in the previous step, write a function named callMyNightSky. Inside the function, include a return statement like this:
 
 return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
-Checkpoint 3 Passed
 
-Stuck? Get a hint
-3.
-Beneath the callMyNightSky() function, use console.log() to log the value of callMyNightSky() to the console.
+3.Beneath the callMyNightSky() function, use console.log() to log the value of callMyNightSky() to the console.
 
 You’ll notice that the function block for callMyNightSky() is able to access the global variables freely since the variables are available to all lines of code in the file.
